@@ -13,6 +13,7 @@ class M_Mahasiswa extends CI_Model
 	public function insertData($data)
 	{
 		$this->db->insert('tbl_mahasiswa', $data);
+		//test
 	}
 
 	public function editData($data, $id)
